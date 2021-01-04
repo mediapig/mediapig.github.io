@@ -9,13 +9,12 @@
     <copyright>三少爷的剑</copyright>
     <lastBuildDate>Mon, 04 Jan 2021 18:53:27 +0800</lastBuildDate><atom:link href="http://blog.tudiancao.com/categories/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Jane Theme Preview</title>
-      <link>http://blog.tudiancao.com/post/jane-theme-preview/</link>
-      <pubDate>Mon, 01 Jan 2018 16:01:23 +0800</pubDate>
+      <title>拼多多员工猝死的一些想法</title>
+      <link>http://blog.tudiancao.com/post/fuckpdd/</link>
+      <pubDate>Mon, 04 Jan 2021 18:53:27 +0800</pubDate>
       
-      <guid>http://blog.tudiancao.com/post/jane-theme-preview/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
-&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
+      <guid>http://blog.tudiancao.com/post/fuckpdd/</guid>
+      <description>拼多多员工猝死的一些想法 Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &amp;lt;iframes&amp;gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax. Hugo created shortcodes to circumvent these limitations. A shortcode is a simple snippet inside a content</description>
     </item>
     
     <item>
@@ -26,15 +25,6 @@
       <guid>http://blog.tudiancao.com/posts/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
 &lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>拼多多员工猝死的一些想法</title>
-      <link>http://blog.tudiancao.com/post/fuckpdd/</link>
-      <pubDate>Mon, 04 Jan 2021 18:53:27 +0800</pubDate>
-      
-      <guid>http://blog.tudiancao.com/post/fuckpdd/</guid>
-      <description>拼多多员工猝死的一些想法 Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &amp;lt;iframes&amp;gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax. Hugo created shortcodes to circumvent these limitations. A shortcode is a simple snippet inside a content</description>
     </item>
     
     <item>
