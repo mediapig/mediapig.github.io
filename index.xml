@@ -20,7 +20,8 @@
       <guid>http://blog.tudiancao.com/post/fuckpdd/</guid>
       
         <description>&lt;h2 id=&#34;拼多多员工猝死的一些想法&#34;&gt;拼多多员工猝死的一些想法&lt;/h2&gt;
-&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+&lt;p&gt;  拼多多这个事情吧，我又想说点大家不高兴听的话了。&lt;!-- raw HTML omitted --&gt;
+   怎么说呢，中国和西方是不太一样的。中国从秦汉以来是农耕文明，西方是海盗文明。从长远的看，中国人的技能一点一直都是种地。&lt;/p&gt;
 &lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
 &lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
 &lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
@@ -273,19 +274,13 @@ And then define the link:
     <item>
       <title>About</title>
       <link>http://blog.tudiancao.com/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <pubDate>Mon, 04 Jan 2021 21:38:52 +0800</pubDate>
       
       <guid>http://blog.tudiancao.com/about/</guid>
       
-        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;三少爷的剑是古龙先生的一本小说，也是我曾经的一个游戏网名。所以就用来当博客名了。&lt;!-- raw HTML omitted --&gt;
+我是一个程序员，偶尔看看杂书。&lt;!-- raw HTML omitted --&gt;
+吐吐槽。&lt;/p&gt;
 </description>
       
     </item>
