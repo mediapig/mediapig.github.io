@@ -10,15 +10,6 @@
     <lastBuildDate>Mon, 04 Jan 2021 18:53:27 +0800</lastBuildDate><atom:link href="http://blog.tudiancao.com/categories/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jane 主题预览</title>
-      <link>http://blog.tudiancao.com/post/jane-theme-preview.zh-cn/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://blog.tudiancao.com/post/jane-theme-preview.zh-cn/</guid>
-      <description>主题预览,内容有待填充。</description>
-    </item>
-    
-    <item>
-      <title>Jane 主题预览</title>
       <link>http://blog.tudiancao.com/posts/jane-theme-preview.zh-cn/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
@@ -209,6 +200,16 @@
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>http://blog.tudiancao.com/post/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://blog.tudiancao.com/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.tudiancao.com/posts/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
