@@ -292,215 +292,6 @@ And then define the link:
     
     <item>
       <title>Math Preview</title>
-      <link>http://blog.tudiancao.com/post/math-preview/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>http://blog.tudiancao.com/post/math-preview/</guid>
-      
-        <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;repeating-fractions&#34;&gt;Repeating fractions&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;summation-notation&#34;&gt;Summation notation&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;sum-of-a-series&#34;&gt;Sum of a Series&lt;/h2&gt;
-
-&lt;p&gt;I broke up the next two examples into separate lines so it behaves better on a mobile phone. That&#39;s why they include \displaystyle.&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle\sum_{i=1}^{k+1}i
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle= \left(\sum_{i=1}^{k}i\right) +(k+1)
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle= \frac{k(k+1)}{2}+k+1
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle= \frac{k(k+1)+2(k+1)}{2}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle= \frac{(k+1)(k+2)}{2}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle= \frac{(k+1)((k+1)+1)}{2}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;product-notation&#34;&gt;Product notation&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\displaystyle 1 + \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \displaystyle \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \displaystyle\text{ for }\lvert q\rvert &lt; 1.
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;inline-math&#34;&gt;Inline math&lt;/h2&gt;
-
-&lt;p&gt;And here is some in-line math: &lt;span  class=&#34;math&#34;&gt;\( k_{n+1} = n^2 + k_n^2 - k_{n-1} \)&lt;/span&gt; , followed by some more text.&lt;/p&gt;
-
-&lt;h2 id=&#34;greek-letters&#34;&gt;Greek Letters&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\Gamma\ \Delta\ \Theta\ \Lambda\ \Xi\ \Pi\ \Sigma\ \Upsilon\ \Phi\ \Psi\ \Omega
-\alpha\ \beta\ \gamma\ \delta\ \epsilon\ \zeta\ \eta\ \theta\ \iota\ \kappa\ \lambda\ \mu\ \nu\ \xi \ \omicron\ \pi\ \rho\ \sigma\ \tau\ \upsilon\ \phi\ \chi\ \psi\ \omega\ \varepsilon\ \vartheta\ \varpi\ \varrho\ \varsigma\ \varphi
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;arrows&#34;&gt;Arrows&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\gets\ \to\ \leftarrow\ \rightarrow\ \uparrow\ \Uparrow\ \downarrow\ \Downarrow\ \updownarrow\ \Updownarrow
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\Leftarrow\ \Rightarrow\ \leftrightarrow\ \Leftrightarrow\ \mapsto\ \hookleftarrow
-\leftharpoonup\ \leftharpoondown\ \rightleftharpoons\ \longleftarrow\ \Longleftarrow\ \longrightarrow
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\Longrightarrow\ \longleftrightarrow\ \Longleftrightarrow\ \longmapsto\ \hookrightarrow\ \rightharpoonup
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\rightharpoondown\ \leadsto\ \nearrow\ \searrow\ \swarrow\ \nwarrow
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;symbols&#34;&gt;Symbols&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\surd\ \barwedge\ \veebar\ \odot\ \oplus\ \otimes\ \oslash\ \circledcirc\ \boxdot\ \bigtriangleup
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\bigtriangledown\ \dagger\ \diamond\ \star\ \triangleleft\ \triangleright\ \angle\ \infty\ \prime\ \triangle
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;calculus&#34;&gt;Calculus&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\int u \frac{dv}{dx}\,dx=uv-\int \frac{du}{dx}v\,dx
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\oint \vec{F} \cdot d\vec{s}=0
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;lorenz-equations&#34;&gt;Lorenz Equations&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\begin{aligned} \dot{x} &amp; = \sigma(y-x) \\ \dot{y} &amp; = \rho x - y - xz \\ \dot{z} &amp; = -\beta z + xy \end{aligned}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;cross-product&#34;&gt;Cross Product&lt;/h2&gt;
-
-&lt;p&gt;This works in KaTeX, but the separation of fractions in this environment is not so good.&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\ \frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 \\ \frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 \end{vmatrix}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Here&#39;s a workaround: make the fractions smaller with an extra class that targets the spans with &amp;quot;mfrac&amp;quot; class (makes no difference in the MathJax case):&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\mathbf{V}_1 \times \mathbf{V}_2 = \begin{vmatrix} \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\ \frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 \\ \frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 \end{vmatrix}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;accents&#34;&gt;Accents&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\hat{x}\ \vec{x}\ \ddot{x}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;stretchy-brackets&#34;&gt;Stretchy brackets&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\left(\frac{x^2}{y^3}\right)
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;evaluation-at-limits&#34;&gt;Evaluation at limits&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\left.\frac{x^3}{3}\right|_0^1
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;case-definitions&#34;&gt;Case definitions&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-f(n) = \begin{cases} \frac{n}{2}, &amp; \text{if } n\text{ is even} \\ 3n+1, &amp; \text{if } n\text{ is odd} \end{cases}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;maxwells-equations&#34;&gt;Maxwell&#39;s Equations&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\begin{aligned} \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\ \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\ \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\ \nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;These equations are quite cramped. We can add vertical spacing using (for example) [1em] after each line break (\). as you can see here:&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\begin{aligned} \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\[1em] \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\[0.5em] \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\[1em] \nabla \cdot \vec{\mathbf{B}} &amp; = 0 \end{aligned}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;statistics&#34;&gt;Statistics&lt;/h2&gt;
-
-&lt;p&gt;Definition of combination:&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\frac{n!}{k!(n-k)!} = {^n}C_k
-{n \choose k}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;fractions-on-fractions&#34;&gt;Fractions on fractions&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;nth-root&#34;&gt;n-th root&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\sqrt[n]{1+x+x^2+x^3+\ldots}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;matrices&#34;&gt;Matrices&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-\begin{pmatrix} a_{11} &amp; a_{12} &amp; a_{13}\\ a_{21} &amp; a_{22} &amp; a_{23}\\ a_{31} &amp; a_{32} &amp; a_{33} \end{pmatrix}
-\begin{bmatrix} 0 &amp; \cdots &amp; 0 \\ \vdots &amp; \ddots &amp; \vdots \\ 0 &amp; \cdots &amp; 0 \end{bmatrix}
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;punctuation&#34;&gt;Punctuation&lt;/h2&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-f(x) = \sqrt{1+x} \quad (x \ge -1)
-f(x) \sim x^2 \quad (x\to\infty)
-\]&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Now with punctuation:&lt;/p&gt;
-
-&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[
-f(x) = \sqrt{1+x}, \quad x \ge -1
-f(x) \sim x^2, \quad x\to\infty
-\]&lt;/span&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Math Preview</title>
       <link>http://blog.tudiancao.com/posts/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
@@ -5133,6 +4924,250 @@ $ vi themes/zafta/layouts/_default/single.html
 &lt;h3 id=&#34;dont-repeat-yourself&#34;&gt;Don&amp;rsquo;t Repeat Yourself&lt;/h3&gt;
 &lt;p&gt;DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&amp;rsquo;re figuring that out, accept that you&amp;rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&amp;rsquo;s okay to delay splitting up a template.&lt;/p&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>http://blog.tudiancao.com/post/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.tudiancao.com/post/goisforlovers/</guid>
+      
+        <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in go templates.&lt;/p&gt;
+&lt;p&gt;This document is a brief primer on using go templates. The &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;go docs&lt;/a&gt;
+provide more details.&lt;/p&gt;
+&lt;h2 id=&#34;introduction-to-go-templates&#34;&gt;Introduction to Go Templates&lt;/h2&gt;
+&lt;p&gt;Go templates provide an extremely simple template language. It adheres to the
+belief that only the most basic of logic belongs in the template or view layer.
+One consequence of this simplicity is that go templates parse very quickly.&lt;/p&gt;
+&lt;p&gt;A unique characteristic of go templates is they are content aware. Variables and
+content will be sanitized depending on the context of where they are used. More
+details can be found in the &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;go docs&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-syntax&#34;&gt;Basic Syntax&lt;/h2&gt;
+&lt;p&gt;Go lang templates are html files with the addition of variables and
+functions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Go variables and functions are accessible within {{ }}&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Accessing a predefined variable &amp;ldquo;foo&amp;rdquo;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ foo }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parameters are separated using spaces&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Calling the add function with input of 1, 2:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ add 1 2 }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Methods and fields are accessed via dot notation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Accessing the Page Parameter &amp;ldquo;bar&amp;rdquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ .Params.bar }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Parentheses can be used to group items together&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if or (isset .Params &amp;quot;alt&amp;quot;) (isset .Params &amp;quot;caption&amp;quot;) }} Caption {{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+&lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
+template is passed either a page or a node struct depending on which type of
+page you are rendering. More details are available on the
+&lt;a href=&#34;http://blog.tudiancao.com/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Variables can also be defined and referenced.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ $address := &amp;quot;123 Main St.&amp;quot;}}
+{{ $address }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;functions&#34;&gt;Functions&lt;/h2&gt;
+&lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
+template system also provides a mechanism for applications to extend the
+available functions with their own. &lt;a href=&#34;http://blog.tudiancao.com/layout/functions&#34;&gt;Hugo template
+functions&lt;/a&gt; provide some additional functionality we believe
+are useful for building websites. Functions are called by using their name
+followed by the required parameters separated by spaces. Template
+functions cannot be added without recompiling hugo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ add 1 2 }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;includes&#34;&gt;Includes&lt;/h2&gt;
+&lt;p&gt;When including another template you will pass to it the data it will be
+able to access. To pass along the current context please remember to
+include a trailing dot. The templates location will always be starting at
+the /layout/ directory within Hugo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ template &amp;quot;chrome/header.html&amp;quot; . }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;logic&#34;&gt;Logic&lt;/h2&gt;
+&lt;p&gt;Go templates provide the most basic iteration and conditional logic.&lt;/p&gt;
+&lt;h3 id=&#34;iteration&#34;&gt;Iteration&lt;/h3&gt;
+&lt;p&gt;Just like in go, the go templates make heavy use of range to iterate over
+a map, array or slice. The following are different examples of how to use
+range.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1: Using Context&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ range array }}
+    {{ . }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example 2: Declaring value variable name&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{range $element := array}}
+    {{ $element }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example 2: Declaring key and value variable name&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{range $index, $element := array}}
+    {{ $index }}
+    {{ $element }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;conditionals&#34;&gt;Conditionals&lt;/h3&gt;
+&lt;p&gt;If, else, with, or, &amp;amp; and provide the framework for handling conditional
+logic in Go Templates. Like range, each statement is closed with &lt;code&gt;end&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Go Templates treat the following values as false:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;false&lt;/li&gt;
+&lt;li&gt;0&lt;/li&gt;
+&lt;li&gt;any array, slice, map, or string of length zero&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example 1: If&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if isset .Params &amp;quot;title&amp;quot; }}&amp;lt;h4&amp;gt;{{ index .Params &amp;quot;title&amp;quot; }}&amp;lt;/h4&amp;gt;{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example 2: If -&amp;gt; Else&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if isset .Params &amp;quot;alt&amp;quot; }}
+    {{ index .Params &amp;quot;alt&amp;quot; }}
+{{else}}
+    {{ index .Params &amp;quot;caption&amp;quot; }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example 3: And &amp;amp; Or&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if and (or (isset .Params &amp;quot;title&amp;quot;) (isset .Params &amp;quot;caption&amp;quot;)) (isset .Params &amp;quot;attr&amp;quot;)}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example 4: With&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;An alternative way of writing &amp;ldquo;if&amp;rdquo; and then referencing the same value
+is to use &amp;ldquo;with&amp;rdquo; instead. With rebinds the context &lt;code&gt;.&lt;/code&gt; within its scope,
+and skips the block if the variable is absent.&lt;/p&gt;
+&lt;p&gt;The first example above could be simplified as:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ with .Params.title }}&amp;lt;h4&amp;gt;{{ . }}&amp;lt;/h4&amp;gt;{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Example 5: If -&amp;gt; Else If&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if isset .Params &amp;quot;alt&amp;quot; }}
+    {{ index .Params &amp;quot;alt&amp;quot; }}
+{{ else if isset .Params &amp;quot;caption&amp;quot; }}
+    {{ index .Params &amp;quot;caption&amp;quot; }}
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;pipes&#34;&gt;Pipes&lt;/h2&gt;
+&lt;p&gt;One of the most powerful components of go templates is the ability to
+stack actions one after another. This is done by using pipes. Borrowed
+from unix pipes, the concept is simple, each pipeline&amp;rsquo;s output becomes the
+input of the following pipe.&lt;/p&gt;
+&lt;p&gt;Because of the very simple syntax of go templates, the pipe is essential
+to being able to chain together function calls. One limitation of the
+pipes is that they only can work with a single value and that value
+becomes the last parameter of the next pipeline.&lt;/p&gt;
+&lt;p&gt;A few simple examples should help convey how to use the pipe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1 :&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if eq 1 1 }} Same {{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;is the same as&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ eq 1 1 | if }} Same {{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It does look odd to place the if at the end, but it does provide a good
+illustration of how to use the pipes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 2 :&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ index .Params &amp;quot;disqus_url&amp;quot; | html }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Access the page parameter called &amp;ldquo;disqus_url&amp;rdquo; and escape the HTML.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 3 :&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{ if or (or (isset .Params &amp;quot;title&amp;quot;) (isset .Params &amp;quot;caption&amp;quot;)) (isset .Params &amp;quot;attr&amp;quot;)}}
+Stuff Here
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Could be rewritten as&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{  isset .Params &amp;quot;caption&amp;quot; | or isset .Params &amp;quot;title&amp;quot; | or isset .Params &amp;quot;attr&amp;quot; | if }}
+Stuff Here
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;context-aka-the-dot&#34;&gt;Context (aka. the dot)&lt;/h2&gt;
+&lt;p&gt;The most easily overlooked concept to understand about go templates is that {{ . }}
+always refers to the current context. In the top level of your template this
+will be the data set made available to it. Inside of a iteration it will have
+the value of the current item. When inside of a loop the context has changed. .
+will no longer refer to the data available to the entire page. If you need to
+access this from within the loop you will likely want to set it to a variable
+instead of depending on the context.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  {{ $title := .Site.Title }}
+  {{ range .Params.tags }}
+    &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;{{ $baseurl }}/tags/{{ . | urlize }}&amp;quot;&amp;gt;{{ . }}&amp;lt;/a&amp;gt; - {{ $title }} &amp;lt;/li&amp;gt;
+  {{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice how once we have entered the loop the value of {{ . }} has changed. We
+have defined a variable outside of the loop so we have access to it from within
+the loop.&lt;/p&gt;
+&lt;h1 id=&#34;hugo-parameters&#34;&gt;Hugo Parameters&lt;/h1&gt;
+&lt;p&gt;Hugo provides the option of passing values to the template language
+through the site configuration (for sitewide values), or through the meta
+data of each specific piece of content. You can define any values of any
+type (supported by your front matter/config format) and use them however
+you want to inside of your templates.&lt;/p&gt;
+&lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
+&lt;p&gt;In each piece of content you can provide variables to be used by the
+templates. This happens in the &lt;a href=&#34;http://blog.tudiancao.com/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An example of this is used in this documentation site. Most of the pages
+benefit from having the table of contents provided. Sometimes the TOC just
+doesn&amp;rsquo;t make a lot of sense. We&amp;rsquo;ve defined a variable in our front matter
+of some pages to turn off the TOC from being displayed.&lt;/p&gt;
+&lt;p&gt;Here is the example front matter:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;Permalinks&amp;quot;
+date: &amp;quot;2013-11-18&amp;quot;
+aliases:
+  - &amp;quot;/doc/permalinks/&amp;quot;
+groups: [&amp;quot;extras&amp;quot;]
+groups_weight: 30
+notoc: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here is the corresponding code inside of the template:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  {{ if not .Params.notoc }}
+    &amp;lt;div id=&amp;quot;toc&amp;quot; class=&amp;quot;well col-md-4 col-sm-6&amp;quot;&amp;gt;
+    {{ .TableOfContents }}
+    &amp;lt;/div&amp;gt;
+  {{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;using-site-config-parameters&#34;&gt;Using Site (config) Parameters&lt;/h2&gt;
+&lt;p&gt;In your top-level configuration file (eg, &lt;code&gt;config.yaml&lt;/code&gt;) you can define site
+parameters, which are values which will be available to you in chrome.&lt;/p&gt;
+&lt;p&gt;For instance, you might declare:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;CopyrightHTML&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Copyright &amp;amp;#xA9; 2013 John Doe. All Rights Reserved.&amp;#34;&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;TwitterUser&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spf13&amp;#34;&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;SidebarRecentLimit&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Within a footer layout, you might then declare a &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt; which is only
+provided if the &lt;code&gt;CopyrightHTML&lt;/code&gt; parameter is provided, and if it is given,
+you would declare it to be HTML-safe, so that the HTML entity is not escaped
+again.  This would let you easily update just your top-level config file each
+January 1st, instead of hunting through your templates.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{if .Site.Params.CopyrightHTML}}&amp;lt;footer&amp;gt;
+&amp;lt;div class=&amp;quot;text-center&amp;quot;&amp;gt;{{.Site.Params.CopyrightHTML | safeHtml}}&amp;lt;/div&amp;gt;
+&amp;lt;/footer&amp;gt;{{end}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;An alternative way of writing the &amp;ldquo;if&amp;rdquo; and then referencing the same value
+is to use &amp;ldquo;with&amp;rdquo; instead. With rebinds the context &lt;code&gt;.&lt;/code&gt; within its scope,
+and skips the block if the variable is absent:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{with .Site.Params.TwitterUser}}&amp;lt;span class=&amp;quot;twitter&amp;quot;&amp;gt;
+&amp;lt;a href=&amp;quot;https://twitter.com/{{.}}&amp;quot; rel=&amp;quot;author&amp;quot;&amp;gt;
+&amp;lt;img src=&amp;quot;/images/twitter.png&amp;quot; width=&amp;quot;48&amp;quot; height=&amp;quot;48&amp;quot; title=&amp;quot;Twitter: {{.}}&amp;quot;
+ alt=&amp;quot;Twitter&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+&amp;lt;/span&amp;gt;{{end}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Finally, if you want to pull &amp;ldquo;magic constants&amp;rdquo; out of your layouts, you can do
+so, such as in this example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;nav class=&amp;quot;recent&amp;quot;&amp;gt;
+  &amp;lt;h1&amp;gt;Recent Posts&amp;lt;/h1&amp;gt;
+  &amp;lt;ul&amp;gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{.RelPermalink}}&amp;quot;&amp;gt;{{.Title}}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+  {{end}}&amp;lt;/ul&amp;gt;
+&amp;lt;/nav&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</description>
       
     </item>
     
