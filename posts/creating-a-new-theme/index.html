@@ -182,10 +182,6 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
               </li>
             
               <li>
-                <a href="http://localhost:1313/post/fuckpdd/">拼多多员工猝死的一些想法</a>
-              </li>
-            
-              <li>
                 <a href="http://localhost:1313/posts/image-preview/">Image Preview</a>
               </li>
             
@@ -374,10 +370,6 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
             
               <li>
                 <a href="http://localhost:1313/posts/shortcodes-preview/">Shortcodes Preview</a>
-              </li>
-            
-              <li>
-                <a href="http://localhost:1313/post/fuckpdd/">拼多多员工猝死的一些想法</a>
               </li>
             
               <li>
@@ -1327,6 +1319,23 @@ $ vi themes/zafta/layouts/_default/single.html
 
   
   
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">Reward</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/theme/jane/static/image/wechat-qr-code.png">
+        <span>Wechat</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/theme/jane/static/image/alipay-qr-code.png">
+        <span>Alipay</span>
+      </label>
+  </div>
+</div>
 </article>
 
 
@@ -1398,6 +1407,10 @@ $ vi themes/zafta/layouts/_default/single.html
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 
   
     <span>
@@ -1448,6 +1461,8 @@ $ vi themes/zafta/layouts/_default/single.html
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

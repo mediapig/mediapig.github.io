@@ -22,7 +22,7 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="xianmin" />
+<meta name="author" content="三少爷" />
   <meta name="description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates." />
 
@@ -179,10 +179,6 @@ This document is a brief primer on using go templates."/>
             
               <li>
                 <a href="http://localhost:1313/posts/shortcodes-preview/">Shortcodes Preview</a>
-              </li>
-            
-              <li>
-                <a href="http://localhost:1313/post/fuckpdd/">拼多多员工猝死的一些想法</a>
               </li>
             
               <li>
@@ -374,10 +370,6 @@ This document is a brief primer on using go templates."/>
             
               <li>
                 <a href="http://localhost:1313/posts/shortcodes-preview/">Shortcodes Preview</a>
-              </li>
-            
-              <li>
-                <a href="http://localhost:1313/post/fuckpdd/">拼多多员工猝死的一些想法</a>
               </li>
             
               <li>
@@ -697,7 +689,7 @@ so, such as in this example:</p>
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">Author</span>
-    <span class="item-content">xianmin</span>
+    <span class="item-content">三少爷</span>
   </p>
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
@@ -716,6 +708,23 @@ so, such as in this example:</p>
 
   
   
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">Reward</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/theme/jane/static/image/wechat-qr-code.png">
+        <span>Wechat</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/theme/jane/static/image/alipay-qr-code.png">
+        <span>Alipay</span>
+      </label>
+  </div>
+</div>
 </article>
 
 
@@ -787,6 +796,10 @@ so, such as in this example:</p>
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 
   
     <span>
@@ -837,6 +850,8 @@ so, such as in this example:</p>
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
