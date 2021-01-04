@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>996 on 三少爷的剑</title>
-    <link>http://localhost:1313/tags/996/</link>
+    <link>http://blog.tudiancao.com/tags/996/</link>
     <description>Recent content in 996 on 三少爷的剑</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>三少爷的剑</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 18:53:27 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/996/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 18:53:27 +0800</lastBuildDate><atom:link href="http://blog.tudiancao.com/tags/996/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>拼多多员工猝死的一些想法</title>
-      <link>http://localhost:1313/post/fuckpdd/</link>
+      <link>http://blog.tudiancao.com/post/fuckpdd/</link>
       <pubDate>Mon, 04 Jan 2021 18:53:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/fuckpdd/</guid>
+      <guid>http://blog.tudiancao.com/post/fuckpdd/</guid>
       <description>拼多多员工猝死的一些想法 Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &amp;lt;iframes&amp;gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax. Hugo created shortcodes to circumvent these limitations. A shortcode is a simple snippet inside a content</description>
     </item>
     
