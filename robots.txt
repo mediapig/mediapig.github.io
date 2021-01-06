@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.tudiancao.com/sitemap.xml
+Sitemap: https://blog.tudiancao.com/sitemap.xml
