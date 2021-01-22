@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.tudiancao.com/categories/</loc>
+    <loc>http://blog.tudiancao.com/categories.html</loc>
   </url>
   
   <url>
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://blog.tudiancao.com/tags/</loc>
+    <loc>http://blog.tudiancao.com/tags.html</loc>
   </url>
   
 </urlset>
