@@ -93,34 +93,6 @@
   </url>
   
   <url>
-    <loc>http://blog.tudiancao.com/tags/996/</loc>
-    <lastmod>2021-01-22T15:10:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.tudiancao.com/tags/%E5%90%90%E6%A7%BD/</loc>
-    <lastmod>2021-01-22T15:10:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.tudiancao.com/categories/%E5%90%90%E6%A7%BD/</loc>
-    <lastmod>2021-01-22T15:10:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.tudiancao.com/post/fuckpdd/</loc>
-    <lastmod>2021-01-22T15:10:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.tudiancao.com/tags/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -389,6 +361,30 @@
   <url>
     <loc>http://blog.tudiancao.com/tags/tag-5/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.tudiancao.com/tags/996/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.tudiancao.com/tags/%E5%90%90%E6%A7%BD/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.tudiancao.com/categories/%E5%90%90%E6%A7%BD/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.tudiancao.com/post/fuckpdd/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
