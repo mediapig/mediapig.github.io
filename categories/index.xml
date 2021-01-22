@@ -1,102 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 三少爷的剑</title>
-    <link>https://blog.tudiancao.com/categories/</link>
-    <description>Recent content in Categories on 三少爷的剑</description>
+    <title>Categories on My New Hugo Site</title>
+    <link>http://example.org/categories/</link>
+    <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>三少爷的剑</copyright>
-    <lastBuildDate>Mon, 04 Jan 2021 18:53:27 +0800</lastBuildDate><atom:link href="https://blog.tudiancao.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>docs</title>
-      <link>https://blog.tudiancao.com/categories/docs/</link>
-      <pubDate>Mon, 04 Jan 2021 18:53:27 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/docs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>https://blog.tudiancao.com/categories/index/</link>
-      <pubDate>Mon, 04 Jan 2021 18:53:27 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>吐槽</title>
-      <link>https://blog.tudiancao.com/categories/%E5%90%90%E6%A7%BD/</link>
-      <pubDate>Mon, 04 Jan 2021 18:53:27 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/%E5%90%90%E6%A7%BD/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://blog.tudiancao.com/categories/math/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://blog.tudiancao.com/categories/shortcodes/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://blog.tudiancao.com/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://blog.tudiancao.com/categories/test/</link>
-      <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>https://blog.tudiancao.com/categories/development/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://blog.tudiancao.com/categories/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>https://blog.tudiancao.com/categories/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>https://blog.tudiancao.com/categories/syntax-highlighting/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
